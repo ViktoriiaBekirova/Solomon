@@ -1,0 +1,91 @@
+.header
+  position: relative
+  padding: rem(118) 0 rem(81)
+  &:before
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 50%
+    border-bottom: 1px solid $colorGray
+  &__logo
+    position: absolute
+    top: 0
+    left: rem(-324)
+    width: 100%
+    height: 100%
+    background-repeat: no-repeat
+    z-index: 1
+    @media (max-width: $smallTablet)
+      left: 0
+      opacity: 0.7
+  &__main
+    position: relative
+    padding-bottom: rem(48)
+    line-height: rem(75)
+    text-align: center
+    z-index: 2
+  &__info
+    position: relative
+    display: flex
+    justify-content: space-between
+    z-index: 2
+    @media (max-width: $bigTablet)
+      flex-direction: column
+    &_text
+      max-width: rem(363)
+      color: $colorGray
+      text-align: right
+      @media (max-width: $bigTablet)
+        max-width: 100%
+        padding-bottom: rem(40)
+    &_button
+      display: flex
+      justify-content: center
+      align-items: center
+      align-self: flex-start
+      width: rem(315)
+      height: rem(64)
+      font-family: "RobotoBlack", sans-serif
+      font-weight: bold
+      @include font(24)
+      line-height: rem(12)
+      border: none
+      border-radius: rem(32) !important
+      background: linear-gradient(to right, #47C0C8,#5D67C0)
+      color: $backgroundWhite
+      text-align: center
+      text-transform: uppercase
+      outline: none
+      overflow: hidden
+      cursor: pointer
+      transition: 0.3s ease
+      @media (-webkit-min-device-pixel-ratio: 0)
+        display: -webkit-box
+        -webkit-box-pack: center
+      &:before // анимация кнопки
+        border-radius: inherit
+        background-image: linear-gradient(160deg,#5D67C0,#47C0C8)
+        content: ''
+        display: block
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        opacity: 0
+        width: 100%
+        z-index: -100
+        transition: opacity .3s
+      &:hover:before
+        opacity: 1
+      &:hover
+        color: $baseFontColor
+      @media (max-width: $bigTablet)
+        align-self: flex-end
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+{
+  "name": "Solomon",
+  "version": "1.0.0",
+  "description": "Gulp Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Viktoriia Bekirova",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "imagemin-pngquant": "^7.0.0",
+    "ws": "3.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-svgo": "^4.0.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "slick-carousel": "^1.8.1"
+  }
+}

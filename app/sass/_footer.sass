@@ -1,0 +1,56 @@
+.footer
+  position: relative
+  width: 100%
+  min-height: rem(267)
+  height: 100%
+  padding: rem(56) 0 rem(42) 0
+  background: linear-gradient(#55C784,#1B546A)
+  text-align: center
+  z-index: 1
+  &__header
+    position: relative
+    width: 100%
+    height: 100%
+    padding: 0 rem(10)
+    opacity: 0.18
+    z-index: 1
+  &__learn-more
+    position: absolute
+    left: 50%
+    transform: translate(-50%)
+    bottom: rem(42)
+    color: $colorYellow
+    text-decoration: underline
+    cursor: pointer
+    z-index: 2
+    transition: 0.3s ease
+    &:hover
+      color: #FFFF09
+.footer-logo
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  &__content
+    position: relative
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding: 0 rem(16)
+    z-index: 2
+    @media (max-width: $smallTablet)
+      justify-content: flex-start
+    @media (max-width: $middlePhone)
+      flex-direction: column
+      align-items: flex-start
+    &_img
+      cursor: pointer
+      @media (max-width: $smallTablet)
+        margin-right: rem(30)
+        margin-bottom: rem(30)
+        &:last-child
+          margin-right: 0
+      img
+        position: relative

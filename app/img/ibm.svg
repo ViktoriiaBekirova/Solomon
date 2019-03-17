@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="59" viewBox="0 0 115 59">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Union_12" data-name="Union 12" d="M98.235,45.817V19.748L88.96,45.813l-.192,0-9.444-26.06V45.817H63.475V36.448h6.217V9.483H63.3V.114H81.337l7.489,20.9,7.4-20.9h17.862V9.483h-6.217V36.448h6.391v9.369Zm-72.844,0V36.448h6.391V9.483H25.391V.114H49.559a12.066,12.066,0,0,1,7.525,3.127L59.628,6.2c.721.716,1.134,3.122,1.134,3.122l.263,2.954a10.653,10.653,0,0,1-.612,3.131L59.1,18.362a10.547,10.547,0,0,1-2.714,3.127v2.954A10.548,10.548,0,0,1,59.1,27.57l1.317,2.954a10.653,10.653,0,0,1,.612,3.131l-.263,2.954s-.413,2.407-1.134,3.122L57.084,42.69a12.067,12.067,0,0,1-7.525,3.127Zm16.023-9.369h9.368V27.765H41.414Zm0-18.281h9.368V9.483H41.414ZM.174,45.817V36.448H6.391V9.483H0V0H22.24V9.483H16.023V36.448h6.391v9.369Z" transform="translate(0 -1)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_700" data-name="Group 700" transform="translate(-1062 -2143)">
+    <rect id="Rectangle_1628" data-name="Rectangle 1628" width="115" height="59" transform="translate(1062 2143)" fill="none"/>
+    <g id="IBM_logo" transform="translate(1062.455 2150.57)" clip-path="url(#clip-path)">
+      <path id="Path_686" data-name="Path 686" d="M0,13.683H117.685v6.082H0m0,6.082H111.4v6.083H0v6.081H111.4v6.081H0m0,6.083H117.685v6.083H0" transform="translate(0 -13.005)" fill="none" stroke="#1f70c1" stroke-width="27.37"/>
+    </g>
+  </g>
+</svg>
